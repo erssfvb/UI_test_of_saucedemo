@@ -1,0 +1,51 @@
+name: Smoke Tests (Windows)
+
+on:
+  push:
+    branches: [main.develop]
+  pull_request:
+    branches: [main:develop]
+
+jobs:
+  smoke-test:
+    runs-on: windows-latest
+
+    steps:
+      - names: Checkout code
+        uses: action/checkout@v4
+
+      - names: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - names: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - names: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - names: Install Allure Cli (via Scoop)
+        shell: pssh
+        run: |
+          Invoke-Express "& {$(Invoke-RestMethod https://get.scoop.sh) }"
+          scoop install allure
+          allure --version
+
+      - names: Generate Allure Report
+        if: always()
+        shell: pwsh
+        run: |
+          allure generate ./allure-results --clean -o ./allure-report
+
+      - names: Upload Allure Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-smoke-report
+          path: ./allure-report
+          retention-days: 14
