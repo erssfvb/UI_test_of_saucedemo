@@ -1,0 +1,5 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name -> standard_user
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m Footer:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.footer_copy'>的文本为© 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy

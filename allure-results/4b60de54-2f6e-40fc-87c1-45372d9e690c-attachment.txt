@@ -1,0 +1,17 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name -> standard_user
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Bike Light\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Bolt T-Shirt\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Onesie\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Test.allTheThings() T-Shirt (Red)\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Backpack\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Fleece Jacket\\"s" >> .btn_inventory'>
+[32mINFO    [0m Header:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.shopping_cart_link'>
+[32mINFO    [0m CartPage:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/cart.html'> selector='#checkout'>
+[32mINFO    [0m CheckInfoPage:BasePage.py:51 fill:<Locator frame=<Frame name= url='https://www.saucedemo.com/checkout-step-one.html'> selector='#first-name'> -> a
+[32mINFO    [0m CheckInfoPage:BasePage.py:51 fill:<Locator frame=<Frame name= url='https://www.saucedemo.com/checkout-step-one.html'> selector='#last-name'> -> a
+[32mINFO    [0m CheckInfoPage:BasePage.py:51 fill:<Locator frame=<Frame name= url='https://www.saucedemo.com/checkout-step-one.html'> selector='#postal-code'> -> a
+[32mINFO    [0m CheckInfoPage:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/checkout-step-one.html'> selector='#continue'>
+[32mINFO    [0m CheckoutOverviewPage:BasePage.py:161 断言当前页面的url为https://www.saucedemo.com/checkout-step-two.html

@@ -1,0 +1,6 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name ->  standard_user 
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m LoginPage:BasePage.py:108 断言元素[data-test="error"]可见
+[32mINFO    [0m LoginPage:BasePage.py:144 断言元素[data-test="error"]的文本为Epic sadface: Username and password do not match any user in this service

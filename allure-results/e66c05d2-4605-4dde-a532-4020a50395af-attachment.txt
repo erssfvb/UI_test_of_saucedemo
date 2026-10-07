@@ -1,0 +1,12 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name -> standard_user
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Bike Light\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Bolt T-Shirt\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Onesie\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryPage:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.shopping_cart_badge'>的文本为3
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Bike Light\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Bolt T-Shirt\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryItem:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.inventory_item >> internal:has="internal:text=\\"Sauce Labs Onesie\\"s" >> .btn_inventory'>
+[32mINFO    [0m InventoryPage:BasePage.py:126 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.shopping_cart_badge'>被隐藏

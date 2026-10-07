@@ -1,0 +1,7 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name -> standard_user
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m Footer:Footer.py:38 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='[data-test="social-x"]'>的href属性为https://x.com/saucelabs
+[32mINFO    [0m Footer:Footer.py:38 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='[data-test="social-facebook"]'>的href属性为https://www.facebook.com/saucelabs
+[32mINFO    [0m Footer:Footer.py:38 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='[data-test="social-linkedin"]'>的href属性为https://www.linkedin.com/company/sauce-labs/

@@ -1,0 +1,7 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name -> standard_user
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m Header:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.shopping_cart_link'>
+[32mINFO    [0m CartPage:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/cart.html'> selector='#checkout'>
+[32mINFO    [0m CheckInfoPage:BasePage.py:161 断言当前页面的url为https://www.saucedemo.com/checkout-step-one.html

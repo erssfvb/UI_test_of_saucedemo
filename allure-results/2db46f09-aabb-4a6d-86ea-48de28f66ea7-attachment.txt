@@ -1,0 +1,10 @@
+[32mINFO    [0m LoginPage:BasePage.py:64 goto: https://www.saucedemo.com/
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#user-name -> standard_user
+[32mINFO    [0m LoginPage:BasePage.py:51 fill:#password -> secret_sauce
+[32mINFO    [0m LoginPage:BasePage.py:36 click: #login-button
+[32mINFO    [0m Header:BasePage.py:36 click: <Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='#react-burger-menu-btn'>
+[32mINFO    [0m InventoryPage:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.bm-menu'>的文本为All Items
+[32mINFO    [0m InventoryPage:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.bm-menu'>的文本为Dynamic Catalog
+[32mINFO    [0m InventoryPage:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.bm-menu'>的文本为About
+[32mINFO    [0m InventoryPage:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.bm-menu'>的文本为Logout
+[32mINFO    [0m InventoryPage:BasePage.py:144 断言元素<Locator frame=<Frame name= url='https://www.saucedemo.com/inventory.html'> selector='.bm-menu'>的文本为Reset App State
